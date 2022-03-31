@@ -3,7 +3,7 @@ let nr = 1;
 console.log('-------------------------');
 console.log('Uzduotis:', nr++);
 const n1 = 20;
-if (n1 < 0) {
+if (n1 <= 0) {
   console.log('Blogas');
 } else {
   console.log('Geras');
@@ -20,13 +20,13 @@ if (colorCode === 1) {
 }
 console.log('-------------------------');
 console.log('Uzduotis:', nr++);
-const d = 3;
-const k = 18;
-const n = 5;
+const d = 3; //dezes
+const k = 15; //knygos
+const n = 5; //i viena deze telpa knygu
 if (k / n > d) {
-  console.log('Knygos netilpa i dezes');
+  console.log('Knygos netelpa i dezes');
 } else {
-  console.log('Knygos tilpa i dezes');
+  console.log('Knygos telpa i dezes');
 }
 
 console.log('-------------------------');
@@ -35,7 +35,9 @@ let a = 1;
 let b = 4;
 console.log('a', a);
 console.log('b', b);
-if (a > b) {
+if (a === b) {
+  console.log('Skaiciai lygūs, veiksmai nebus atliekami');
+} else if (a > b) {
   a--;
   b++;
 } else {
@@ -106,19 +108,16 @@ if (yearsDiffecences % 4 === 0) {
 
 console.log('-------------------------');
 console.log('Uzduotis:', nr++);
-const v1 = 8;
-const m1 = 29;
-const m2 = 23;
+const v1 = 9;
+const m1 = 5;
+const m2 = 0;
 const v = 9;
 const mm = 5;
 const lessonStartInMinutes = v * 60 + mm;
 const leftTimeInMinutes = v1 * 60 + m1;
 const timeArrive = leftTimeInMinutes + m2;
-if (lessonStartInMinutes > timeArrive) {
+if (lessonStartInMinutes >= timeArrive) {
   console.log('Petras i pamoka nepaveluos');
 } else {
   console.log('Petras i pamoka paveluos');
 }
-
-// console.log('-------------------------');
-// console.log('Uzduotis:', nr++);
