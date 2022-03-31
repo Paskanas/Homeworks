@@ -23,7 +23,7 @@ console.log('Uzduotis:', nr++);
 const d = 3; //dezes
 const k = 15; //knygos
 const n = 5; //i viena deze telpa knygu
-if (k / n > d) {
+if (Math.ceil(k / n) > d) {
   console.log('Knygos netelpa i dezes');
 } else {
   console.log('Knygos telpa i dezes');
