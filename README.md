@@ -10,7 +10,8 @@ _Homeworks_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Design 2022/03/30: ./homeworks/20220330/Sąlyginiai uždaviniai(mini).pdf
+Tasks 2022/03/30: ./homeworks/20220330/Sąlyginiai uždaviniai(mini).pdf
+Tasks 2022/03/31: ./homeworks/20220330/For ciklas mini.pdf, ./homeworks/20220330/Funkcijos mini.pdf
 
 ## Features
 

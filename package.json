@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev0330": "nodemon ./homeworks/20220330"
+    "dev0330": "nodemon ./homeworks/20220330",
+    "dev0331_1": "nodemon ./homeworks/20220331/loop.js",
+    "dev0331_2": "nodemon ./homeworks/20220331/functions.js"
 
   },
   "keywords": [],
