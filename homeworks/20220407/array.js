@@ -73,32 +73,70 @@ for (i = 0; i < arrayLength4; i++) {
 console.log('Masyvas:', myArray4);
 
 console.log('-----Uzduotis-5------');
-const arrayLength5 = 100;
-console.log(arrayLength5);
-const minValue5 = 1;
-const maxValue5 = 4;
-const myArray5 = [];
-const obj = { M: 0, N: 0, O: 0, P: 0 };
-let randNum5 = 0;
-let letter = 0;
-let maxLetterCount = 0;
-let maxLetter = '';
-for (i = 0; i < arrayLength5; i++) {
-  randNum5 =
-    minValue5 + Math.floor(Math.random() * (maxValue5 - minValue5 + 1));
-  letter = String.fromCharCode('M'.charCodeAt(0) - 1 + randNum5);
-  obj[letter] += 1;
-  myArray5.push(letter);
+//LESS AUTOMATED SOLUTION
+// const arrayLength5 = 100;
+// console.log(arrayLength5);
+// const minValue5 = 1;
+// const maxValue5 = 4;
+// const myArray5 = [];
+// const obj = { M: 0, N: 0, O: 0, P: 0 };
+// let randNum5 = 0;
+// let letter = 0;
+// let maxLetterCount = 0;
+// let maxLetter = '';
+// for (i = 0; i < arrayLength5; i++) {
+//   randNum5 =
+//     minValue5 + Math.floor(Math.random() * (maxValue5 - minValue5 + 1));
+//   letter = String.fromCharCode('M'.charCodeAt(0) - 1 + randNum5);
+//   obj[letter] += 1;
+//   myArray5.push(letter);
+// }
+// for (const key in obj) {
+//   if (maxLetterCount < obj[key]) {
+//     maxLetterCount = obj[key];
+//     maxLetter = key;
+//   }
+// }
+
+// console.log('Masyvas:', myArray5);
+// console.log(`Daugiausiai yra ${maxLetter} raidziu: ${maxLetterCount}`);
+
+//MORE AUTOMATED SOLUTION
+const arrayLength7 = 100;
+console.log(arrayLength7);
+const minValue7 = 0;
+const maxValue7 = 3;
+const possibleLetters = ['M', 'N', 'O', 'P'];
+const myArray7 = [];
+const obj7 = {};
+let randNum7 = 0;
+let letter7 = 0;
+let maxLetterCount7 = 0;
+let maxLetter7 = '';
+// create object
+for (let i = 0; i < possibleLetters.length; i++) {
+  obj7[possibleLetters[i]] = 0;
 }
-for (const key in obj) {
-  if (maxLetterCount < obj[key]) {
-    maxLetterCount = obj[key];
-    maxLetter = key;
+// push letters to array
+for (i = 0; i < arrayLength7; i++) {
+  randNum7 =
+    minValue7 + Math.floor(Math.random() * (maxValue7 - minValue7 + 1));
+  letter = possibleLetters[randNum7];
+  obj7[letter] += 1;
+  myArray7.push(letter);
+}
+
+// counting which letter repeats most
+for (const key in obj7) {
+  if (maxLetterCount7 < obj7[key]) {
+    maxLetterCount7 = obj7[key];
+    maxLetter7 = key;
   }
 }
 
-console.log('Masyvas:', myArray5);
-console.log(`Daugiausiai yra ${maxLetter} raidziu: ${maxLetterCount}`);
+console.log('Masyvas:', myArray7);
+console.log(`Daugiausiai yra ${maxLetter7} raidziu: ${maxLetterCount7}`);
+
 console.log('-----Uzduotis-6------');
 const arrayLength6 = 20;
 const minValue6 = 10;
