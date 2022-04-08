@@ -11,7 +11,9 @@ _Homeworks_
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 - Tasks 2022/03/30: ./homeworks/20220330/Sąlyginiai uždaviniai(mini).pdf
-- Tasks 2022/03/31: ./homeworks/20220330/For ciklas mini.pdf, ./homeworks/20220330/Funkcijos mini.pdf
+- Tasks 2022/03/31: ./homeworks/20220331/For ciklas mini.pdf, ./homeworks/20220330/Funkcijos mini.pdf
+- Tasks 2022/04/06: ./homeworks/20220406/While mini.pdf
+- Tasks 2022/04/07: ./homeworks/20220407/Masyvai mini.pdf
 
 ## Features
 
