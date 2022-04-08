@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev0330": "nodemon ./homeworks/20220330",
     "dev0331_1": "nodemon ./homeworks/20220331/loop.js",
-    "dev0331_2": "nodemon ./homeworks/20220331/functions.js"
+    "dev0331_2": "nodemon ./homeworks/20220331/functions.js",
+    "dev0406": "nodemon ./homeworks/20220406/while.js",
+    "dev0407": "nodemon ./homeworks/20220407/array.js"
 
   },
   "keywords": [],
